@@ -11,7 +11,7 @@ def help_command(update: Update, context: CallbackContext) -> None:
 
 def main():
     # Tokenni kiriting
-    updater = Updater("BOT_TOKEN_HERE")
+    updater = Updater("7624114162:AAEifZogcWbknYyvRo9AZ4KBbrOurkWoMk8")
 
     # Buyruqlarni sozlash
     updater.dispatcher.add_handler(CommandHandler("start", start))
